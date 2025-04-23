@@ -2,10 +2,12 @@
 import { useEffect, useRef, useState } from "react";
 import WAVES from "vanta/dist/vanta.waves.min";
 import * as THREE from "three";
-
+type VantaEffect = {
+  destroy: () => void;
+};
 export default function VantaWaves() {
   const vantaRef = useRef<HTMLDivElement>(null);
-  const [vantaEffect, setVantaEffect] = useState<any>(null);
+  const [vantaEffect, setVantaEffect] = useState<VantaEffect | null>(null);
 
   useEffect(() => {
     if (!vantaEffect) {

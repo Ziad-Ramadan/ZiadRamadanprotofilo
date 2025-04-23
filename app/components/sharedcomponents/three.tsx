@@ -3,7 +3,6 @@ import Image from "next/image";
 import img1 from "../../Images/788.png";
 import img2 from "../../Images/build.png";
 import img3 from "../../Images/xo1.png";
-import img5 from "../../Images/457.png";
 import img6 from "../../Images/img6.jpg";
 import img7 from "../../Images/img7.png";
 import img8 from "../../Images/img8.png";

@@ -6,8 +6,6 @@ import Aboutme from "./components/maincomponents/Aboutme";
 import SkillsSection from "./components/maincomponents/SkillsSection";
 import Projects from "./components/sharedcomponents/three";
 import Timeline from "./components/maincomponents/Timeline";
-import Sliderf from "./components/test components/slider.test";
-import Certificate from "./components/Certificate/Certificate.test";
 import VantaWaves from "./components/VantaBackground";
 
 export default function Home() {
@@ -33,7 +31,7 @@ export default function Home() {
           <Projects />
         </section>
         <section id="Services">
-          
+
         </section>
         <section>
           <SkillsSection />
