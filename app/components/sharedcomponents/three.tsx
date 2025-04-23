@@ -1,21 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import img1 from "../Images/788.png";
-import img2 from "../Images/build.png";
-import img3 from "../Images/xo1.png";
-import img5 from "../Images/457.png";
-import img6 from "../Images/img6.jpg";
-import img7 from "../Images/img7.png";
-import img8 from "../Images/img8.png";
-import img92 from "../Images/img92.png";
+import img1 from "../../Images/788.png";
+import img2 from "../../Images/build.png";
+import img3 from "../../Images/xo1.png";
+import img5 from "../../Images/457.png";
+import img6 from "../../Images/img6.jpg";
+import img7 from "../../Images/img7.png";
+import img8 from "../../Images/img8.png";
+import img92 from "../../Images/img92.png";
 export default function Projects() {
   const projects = [
-    {
-      title: "Discord Clone",
-      description: "Discord Clone Using Next.js, TypeScript, and CSS.",
-      image: img5,
-      status: "In Progress",
-    },
+
     {
       title: "Sentiment Analysis App",
       description:
@@ -63,7 +58,7 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="bg-black mx-auto py-12">
+    <div className="bg-transparent mx-auto py-12">
       <div className="container mx-auto py-12 px-4 md:px-8 lg:px-16">
         <h2 className="text-5xl text-white font-bold text-center mb-10">
           My Projects

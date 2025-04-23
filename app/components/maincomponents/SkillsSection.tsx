@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SkillsSection() {
   return (
-    <section className="py-16 bg-black text-white">
+    <section className="py-16 bg-transparent text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-white mb-8">
           Why Hire Me

@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <nav className='bg-black'>
+            <nav className='bg-transparent'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className='flex items-center justify-between h-16'>
                         <div className='flex items-center'>
@@ -70,7 +70,7 @@ export default function Navbar() {
                 </div>
                 {isClick && (
                     <div className='md:hidden'>
-                        <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
+                        <div className='block px-2 pt-2 pb-3 space-y-1 sm:px-3'>
                             <a href="/" className='text-white block p-2 underline-animation'>Home</a>
                             <a href="#Project" className='text-white block p-2 underline-animation'>Projects</a>
                             <a href="#About" className='text-white block p-2 underline-animation'>About me</a>

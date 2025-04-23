@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import Ziad from "../Images/1707246690922.jpeg";
+import Ziad from "../../Images/1707246690922.jpeg";
 export default function Aboutme() {
   const [selectedContent, setSelectedContent] = useState<JSX.Element | null>(
     null
@@ -39,16 +39,17 @@ export default function Aboutme() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row bg-black justify-center h-auto md:h-[700px] space-y-4 md:space-y-0 md:space-x-4 p-4">
-      <div className="flex flex-1 items-center justify-center text-white rounded-lg shadow-lg hidden md:flex">
+    <div className="flex flex-col md:flex-row bg-transparent justify-center h-auto md:h-[500px] mt-8 space-y-4 md:space-y-0 md:space-x-4 p-4">
+      <div className="flex flex-1 items-center justify-center text-white rounded-lg  hidden md:flex">
         <Image
+          style={{marginTop:"180px",}}
           src={Ziad}
           alt="ZiadRamadan"
           className="h-[350px] w-[350px] mb-60 rounded-md"
         />
       </div>
 
-      <div className="flex-1 flex flex-col items-start text-white p-8 rounded-lg shadow-lg relative">
+      <div className="flex-1 flex flex-col items-start text-white p-8 rounded-lg  relative">
         <h1 className="text-3xl md:text-5xl font-bold">About Me</h1>
         <p className="text-sm md:text-base mt-4 mb-4">
           I’m Ziad Ramadan, a Computer Science graduate with a Bachelor Degree

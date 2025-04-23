@@ -2,9 +2,9 @@
 // import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Image from "next/image";
 // import Ziad from "../Images/1707246690922.jpeg";
-import Imageone from "../Images/20063706.png";
-import Imagetwo from "../Images/20088502.png";
-import Imagethree from "../Images/10212045.png";
+import Imageone from "../../Images/20063706.png";
+import Imagetwo from "../../Images/20088502.png";
+import Imagethree from "../../Images/10212045.png";
 
 export default function Whoami() {
   //   const [text] = useTypewriter({
@@ -14,7 +14,7 @@ export default function Whoami() {
   //   });
 
   return (
-    <div className="flex flex-col md:flex-row bg-black items-center justify-center h-[700px] space-y-4 md:space-y-0 md:space-x-4 p-4">
+    <div className="flex flex-col md:flex-row bg-transparent items-center justify-center h-[700px] space-y-4 md:space-y-0 md:space-x-4 p-5">
       <div className="flex-1 md:flex-[0.4] text-white p-8 items-center justify-start rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold">Software Engineer</h1>
         <br />
@@ -29,10 +29,10 @@ export default function Whoami() {
           <Image src={Imagethree} alt="HEY" className="" />
         </div>
         <h1 className="text-center text-2xl font-semibold">
-          Specializing in Front-end Development
+          Specializing in Front and Back-end Development
         </h1>
         <div className="flex justify-center">
-          <Image src={Imageone} className="w-auto h-auto mb-5" alt="HEY" />
+          <Image src={Imageone} className="w-auto h-auto mb-5" alt="HEY"/>
         </div>
       </div>
     </div>

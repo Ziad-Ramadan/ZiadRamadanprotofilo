@@ -58,7 +58,7 @@ const EventCard = ({ Heading, SubHeading }) => {
 
 export default function Timeline() {
   return (
-    <div className='bg-black flex flex-col gap-y-3 w-full'>
+    <div className='bg-transparent flex flex-col gap-y-3 w-full'>
       <Circle />
       {events.map((event, key) => (
         <Fragment key={key}>
