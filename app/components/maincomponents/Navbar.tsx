@@ -26,7 +26,7 @@ export default function Navbar() {
                                 <a href="#Project" className='text-white p-2 underline-animation'>Projects</a>
                                 <a href="#About" className='text-white p-2 underline-animation'>About me</a>
                                 <a href="#Contact" className='text-white p-2 underline-animation'>Contact</a>
-                                <a target='_blank' href="https://drive.google.com/file/d/1rcDEA28XVc7meRZv2tk48mWC9-y3x2_B/view?usp=sharing" className='text-white p-2 underline-animation'>Resume</a>
+                                <a target='_blank' href="https://drive.google.com/file/d/1Pq9STx_Yv8omgLVt79ScHfHg3pXdh7kR/view?usp=sharing" className='text-white p-2 underline-animation'>Resume</a>
                             </div>
                         </div>
                         <div className='md:hidden flex items-center'>
@@ -75,7 +75,7 @@ export default function Navbar() {
                             <a href="#Project" className='text-white block p-2 underline-animation'>Projects</a>
                             <a href="#About" className='text-white block p-2 underline-animation'>About me</a>
                             <a href="#Contact" className='text-white block p-2 underline-animation'>Contact</a>
-                            <a target='_blank' href="https://drive.google.com/file/d/1rcDEA28XVc7meRZv2tk48mWC9-y3x2_B/view?usp=sharing" className='text-white block p-2 underline-animation'>Resume</a>
+                            <a target='_blank' href="https://drive.google.com/file/d/1Pq9STx_Yv8omgLVt79ScHfHg3pXdh7kR/view?usp=sharing" className='text-white block p-2 underline-animation'>Resume</a>
                         </div>
                     </div>
                 )}

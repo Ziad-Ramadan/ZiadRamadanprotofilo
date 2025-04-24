@@ -67,7 +67,7 @@ export default function Contact() {
           </a>
         </div>
 
-        <a target='_blank' href='https://drive.google.com/file/d/1rcDEA28XVc7meRZv2tk48mWC9-y3x2_B/view?usp=sharing' className=" w-full md:w-auto p-3 bg-red-600 hover:bg-red-700 rounded-lg transition duration-300">
+        <a target='_blank' href='https://drive.google.com/file/d/1Pq9STx_Yv8omgLVt79ScHfHg3pXdh7kR/view?usp=sharing' className=" w-full md:w-auto p-3 bg-red-600 hover:bg-red-700 rounded-lg transition duration-300">
           Download CV
         </a>
       </div>
