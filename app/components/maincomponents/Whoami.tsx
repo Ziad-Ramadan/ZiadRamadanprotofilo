@@ -21,7 +21,7 @@ export default function Whoami() {
         <h1 className="text-5xl font-bold">
           Hi, I&apos;m <span className="text-red-600">Zeyad</span>{" "}
         </h1>
-        <h1 className="text-5xl font-bold">From Egypt</h1>
+        <h1 className="text-5xl py-2 font-bold">From Egypt</h1>
       </div>
       <div className="flex-1 text-white p-8 h-[500px] rounded-lg text-center flex flex-col justify-between">
         <div className="flex justify-between">
