@@ -37,7 +37,7 @@ export default function Contact() {
   };
   return (
     <div className="flex flex-col md:flex-row bg-transparent items-center justify-center min-h-screen p-6 space-y-8 md:space-y-0 md:space-x-6">
-      <div className="flex-1 md:flex-[0.4] text-white p-8 rounded-lg shadow-lg">
+      <div className="flex-1 md:flex-[0.4] text-white p-8 rounded-lg">
         <h1 className="text-4xl font-bold mb-6">Contact Me</h1>
 
         <a className="flex items-center space-x-3 mb-4" href='mailto:ziadramadan2046@gmail.com'>
@@ -72,7 +72,7 @@ export default function Contact() {
         </a>
       </div>
 
-      <div className="flex-1 md:flex-[0.6] text-white p-8 rounded-lg shadow-lg bg-transparent">
+      <div className="flex-1 md:flex-[0.6] text-white p-8 rounded-lg bg-transparent">
       <form onSubmit={sendEmail}>
         <label className="block mb-2 font-semibold">Name:</label>
         <input
