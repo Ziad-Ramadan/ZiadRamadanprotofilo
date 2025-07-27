@@ -1,0 +1,38 @@
+const events = [
+  {
+    Heading: "2001: Hello World",
+    SubHeading: "The King is Here",
+    direction: "right",
+  },
+  {
+    Heading: "2018: Start my Coding Jorney",
+    SubHeading: "Start with Visual Basic and c",
+    direction: "left",
+  },
+  {
+    Heading: "2020: Joing Collage of Computing",
+    SubHeading: "Start Learnig and Explore",
+    direction: "right",
+  },
+  {
+    Heading: "2023: ITI Summer Trainging ",
+    SubHeading: "Open Source Development",
+    direction: "left",
+  },
+  {
+    Heading: "2023: Starting Web Career",
+    SubHeading: "Reactjs Nextjs Tailwind css ",
+    direction: "right",
+  },
+  {
+    Heading: "2024: DataCamp Scholarship",
+    SubHeading: "Data Scientist in Python",
+    direction: "left",
+  },
+  {
+    Heading: "2024: Depi",
+    SubHeading: "Microsoft Machine Learning Engineer Track",
+    direction: "right",
+  },
+];
+        
